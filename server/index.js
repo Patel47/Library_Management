@@ -10,6 +10,7 @@ const cookieParser = require("cookie-parser");
 require("./config/passport-stretegy-jwt");
 const app = express();
 app.use(cookieParser());
+// adding comment for testing
 
 connectDb();
 app.use(express.json());
